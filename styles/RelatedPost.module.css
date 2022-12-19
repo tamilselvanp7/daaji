@@ -1,0 +1,148 @@
+.bgContaner {
+    background-color: white;
+    padding: 50px 0px;
+}
+
+.link {
+    color: #000000;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.topimgContaner {
+    width: 30%;
+    position: relative;
+}
+
+.topimgContaner img {
+    width: 100%;
+    /* height: 150px; */
+    position: relative !important;
+    border-radius: 3px;
+
+}
+
+.titlediv {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.titlediv h3 {
+
+    font-family: 'gotham-light' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.topContainer {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.prveContainer {
+    display: flex;
+
+}
+
+.nextContainer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.icon {
+    margin: 20px 4px 4px 4px;
+    color: #000000;
+    font-size: 14px;
+}
+
+.card {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.card h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px !important;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #000;
+    transition: all .25s ease-out;
+}
+
+.card h4:hover {
+    color: #797979;
+}
+
+.bgContaner span {
+    display: block;
+    font-size: 13px;
+    line-height: normal;
+    color: #797979;
+    letter-spacing: .5px;
+    font-family: "Noto Serif", serif;
+    margin-top: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.bgContaner a {
+    text-decoration: none;
+    color: #797979;
+    ;
+}
+
+/* .bgContaner span:hover{
+    display: block;
+    font-size: 13px;
+    line-height: normal;
+    color: #2f31a3;
+    font-family: "Noto Serif",serif;
+    margin-top: 1px;
+} */
+
+.bgContaner p span {
+    font-family: muli;
+    font-size: 12px;
+    line-height: 1em;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.card h6 span {
+    font-family: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 5px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.imgContaner {
+    width: 100%;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.imgContaner img {
+    width: 100%;
+    height: 170px;
+    position: relative !important;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+    .imgContaner img {
+        height: auto;
+    }
+}

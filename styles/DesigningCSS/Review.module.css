@@ -1,0 +1,57 @@
+.reviewContainer {
+  background-color: #f4e7db;
+  border-bottom: 140px solid #fff;
+  padding-top: 3rem !important;
+}
+.Container1 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Container1 h1 {
+  font-weight: 700;
+  font-family: "gotham-light" !important;
+}
+.sendreviewsec {
+  background: url("https://www.daaji.org/wp-content/uploads/2018/12/review-submit-bg.jpg")
+    no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  margin-bottom: -140px;
+}
+
+.sendreviewsec h2 {
+  font-weight: 500;
+  font-family: "gotham-light" !important;
+}
+.sendreviewsec form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sendreviewsec input {
+  background-color: transparent;
+}
+
+.sendreviewsec textarea {
+  background-color: transparent;
+}
+.sendreviewsec select {
+  background-color: transparent;
+}
+
+.sendreviewsec textarea::placeholder {
+  color: black;
+}
+.sendreviewsec input::placeholder {
+  color: black;
+}
+.book_container {
+  background: url(https://hfn-strapi-bucket.s3.ap-south-1.amazonaws.com/Lotus_image_HFN_c22c4c1859.jpg?updated_at=2022-11-24T05:04:38.243Z);
+  /* height: 100vh; */
+  background-size: cover;
+  width: 100%;
+}

@@ -1,0 +1,123 @@
+.main{
+    width: 35px;
+    position: fixed;
+    padding: 0%;
+    bottom: 150px;
+    z-index: 100;
+}
+.main ul{
+    list-style: none;
+    padding: 0%;
+    margin: -4px;
+    display: inline-block;
+    vertical-align: middle;
+    /* border: 1px solid red; */
+    width: 35px;
+    
+}
+
+ .main li svg{
+    font-size:  20px;
+    color: white;
+    margin-left: 8px;
+    width: 18px;
+}
+.facebook{
+    background-color: #3a579a!important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3%;
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+    background-position: center;
+    overflow: hidden;
+}
+.twitter{
+    background-color: #00abf0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3%;
+    width: 35px;
+    height: 30px;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.pinter{
+    background-color:#cd1c1f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3%;
+    width: 35px;
+    height: 30px;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.linkedin{
+    background-color: #127bb6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3%;
+    width: 35px;
+    height: 30px;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.printer{
+    background-color: #404040;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3%;
+    width: 35px;
+    height: 30px;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mail{
+    background-color: #404040;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3%;
+    width: 35px;
+    height: 30px;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.whatsapp{
+    background-color: #1d9e11;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3%;
+    width: 35px;
+    height: 30px;
+    background-position: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.main li:hover{
+   width:max-content;
+  color: white;
+  padding: 3%;
+  text-decoration: none;
+  
+}
+.main li a span{
+    max-width: 0;
+    white-space: nowrap!important;
+    overflow: hidden;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+    text-decoration:none;
+    
+}
+
+
+

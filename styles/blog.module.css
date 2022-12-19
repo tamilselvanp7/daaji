@@ -1,0 +1,193 @@
+.heading {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.heading img {
+  width: 100%;
+}
+
+.heading a span {
+  font-family: "Mr De Haviland", cursive;
+}
+
+.heading h1 {
+  font-family: "gotham-light" !important;
+  font-size: 32px;
+  text-transform: uppercase;
+  /* margin-top: 20px; */
+}
+
+.heading p {
+  margin-top: 1rem;
+  font-size: 11px;
+  color: #797979;
+  font-family: auto;
+}
+
+.chart {
+  text-align: center;
+}
+
+.chart_img {
+  width: 400px;
+}
+
+.content {
+  font-family: muli !important;
+  font-size: 18px !important;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+
+}
+
+.content strong {
+  font-weight: 600 !important;
+}
+
+.content h3 {
+  font-family: "gotham-light" !important;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.matter {
+  vertical-align: baseline;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.matter div {
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.matter p {
+  font-size: 18px !important;
+  line-height: 30px !important;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 40px;
+}
+
+.links a {
+  padding-right: 20px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.button_img {
+  background-image: url("https://cdn.printfriendly.com/buttons/printfriendly-button.png");
+  padding-left: 48px;
+  padding-right: 63px;
+  padding-top: 15px;
+  padding-bottom: 11px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.comment_container {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.comment {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.comment li a {
+  margin: 5px;
+  color: #737272;
+}
+
+.commentBox {
+  width: 95%;
+  margin: 3rem 0;
+}
+
+.commentTimeBox {
+  margin-bottom: 1rem;
+}
+
+.reply, .cancelReply {
+  font-family: Muli;
+  font-size: 12px;
+  color: #797979;
+  cursor: pointer;
+  margin: 0;
+  transition: all .25s;
+}
+
+.reply:hover {
+  color: #0a58ca
+}
+
+.cancelReply:hover {
+  color: #ff3333
+}
+
+.commentTimeBox span {
+  color: #797979;
+  text-transform: uppercase;
+  font-family: "Noto Serif", serif;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  line-height: 30px !important;
+  font-weight: 300;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    text-align: center;
+  }
+
+  .content {
+    padding: 0 15px;
+  }
+
+  .heading img {
+    width: 350px;
+  }
+
+  .heading a span {
+    font-size: 18px;
+  }
+
+  .heading h1 {
+    font-size: 23px;
+  }
+
+  .chart_img {
+    width: 250px;
+  }
+
+  .comment_container a {
+    font-size: 11px;
+  }
+
+  .content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content p img {
+    width: 100%;
+  }
+}

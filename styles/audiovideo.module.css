@@ -1,0 +1,68 @@
+.audio_image {
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.audio_para {
+  font-size: 18px;
+  font-family: muli;
+  color: #525252;
+  font-style: italic;
+  letter-spacing: 0.3px;
+}
+
+.audio_heading {
+  font-size: 15px;
+  font-family: "inherit";
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+
+}
+
+.heading h4 a {
+  text-decoration: none;
+}
+
+.audio_place {
+  font-size: 20px;
+  font-family: 'inherit';
+  color: #797979;
+
+}
+
+.comment_container {
+
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.comment {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.comment li a {
+  margin: 5px;
+  color: #737272;
+}
+
+@media only screen and (max-width: 768px) {
+  .audio_para {
+    margin: 0 1.5rem;
+  }
+}
+
+
+@media only screen and (max-width:600px) {
+  .comment_container a {
+    font-size: 11px;
+  }
+}

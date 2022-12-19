@@ -1,0 +1,67 @@
+.footer_container {
+    background-color: #f6f6f6;
+}
+
+.description {
+    font-family: "Muli";
+    font-size: 14px;
+    color: #737272;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+.approach {
+    font-family: "Muli";
+    font-size: 16px;
+    color: #737272;
+    /* margin-top: 30px; */
+}
+
+.approach a {
+    color: #737272;
+}
+
+.connect {
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+.socialnet {
+    color: #737272;
+    font-size: 15px;
+    font-family: muli;
+}
+
+.socialnet a {
+    color: #737272;
+}
+
+.foot_description {
+    font-family: muli;
+    color: #737272;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.policy {
+    font-size: 14px;
+    font-family: muli;
+    color: #737272;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+@media only screen and (max-width:600px) {
+    .approach {
+        margin-top: 10px;
+    }
+
+    .description {
+        margin-right: 3rem;
+    }
+
+}
+
+
+

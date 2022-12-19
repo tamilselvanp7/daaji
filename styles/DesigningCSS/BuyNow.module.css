@@ -1,0 +1,121 @@
+.orderbtn {
+  font-size: 18px;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  height: 42px;
+
+  padding: 9px 42px;
+  margin-top: 12px;
+  background: #fff;
+  box-shadow: 0px 4px 8px #d8d8d8;
+}
+
+.bgImg {
+  background: url(https://hfn-strapi-bucket.s3.ap-south-1.amazonaws.com/dd_available_2055b98eb1.png?updated_at=2022-11-23T08:05:14.861Z)
+    no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 90vh;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .bgImg {
+    background-size: cover;
+    background-position: bottom;
+    height: 300px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1020px) {
+  .bgImg {
+    background-size: cover;
+    background-position: left;
+    height: 600px;
+  }
+}
+@media (min-width: 1020px) {
+  .bgImg {
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+  }
+}
+.bookstore {
+  background: #f4e7db;
+}
+.bookstore h1 {
+  font-size: 46px;
+  font-weight: 700;
+  padding-top: 3rem !important;
+  font-family: "gotham-light" !important;
+}
+.bookstore h2 {
+  color: #a73c46;
+  font-weight: 600;
+  font-size: 2.5rem;
+  font-family: "gotham-light" !important;
+}
+
+.mediacon {
+  padding-bottom: 1.5rem !important;
+  padding-top: 1.5rem !important;
+}
+.mediabgImg {
+  background-size: cover;
+  background-position: top;
+  height: 300px;
+
+  position: relative;
+  padding-left: 25px;
+}
+
+.mediabgImg a {
+  position: absolute;
+  bottom: 20px;
+  padding: 0px 8px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 34px;
+  text-shadow: 2px 0px 2px #333;
+}
+.mediabgImg h4 {
+  font-family: "gotham-light" !important;
+  font-weight: 600;
+}
+.mediaSubCon h2 {
+  color: #a73c46;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "gotham-light" !important;
+}
+.mediaSubCon a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer {
+  background: #b39d85;
+  text-align: center !important;
+  padding-top: 3rem !important;
+  padding-bottom: 1.5rem !important;
+}
+.footer h5 {
+  font-weight: 400;
+  font-family: "gotham-light" !important;
+  font-size: 1.25rem;
+}
+.footer h4 {
+  font-weight: 400;
+  padding-top: 0.5rem !important;
+  font-family: "gotham-light" !important;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.footer_para {
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 26px !important;
+  color: #212529;
+}

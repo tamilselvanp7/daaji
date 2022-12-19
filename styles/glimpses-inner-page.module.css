@@ -1,0 +1,475 @@
+.glimpses {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(204, 205, 206);
+
+    margin-bottom: 10px;
+}
+
+.glimpses p {
+    float: right;
+    padding: 2px;
+}
+
+.glimpses p i {
+    padding: 2px;
+}
+
+.glimpses_left {
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+.glimpses_left p {
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.glimpses_left div {
+    margin-top: 30px;
+}
+
+.glimpses_left div span {
+    font-style: normal;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+}
+
+.glimpses_left div h4 {
+    font-style: normal;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+}
+
+.glimpses_left div label {
+    font-style: normal;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.glimpses_left div ul {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.glimpses_left div ul li {
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+}
+
+
+
+.glimpses_inner_page button {
+    background-color: #5f2323;
+    width: 100px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 8px;
+    border-width: 0px;
+    height: 30px;
+}
+
+
+.glimpses_inner_page div {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(204, 205, 206);
+    margin-top: 10px;
+
+}
+
+.glimpses_inner_page div h2 {
+    font-size: 17px;
+    float: right;
+    margin-right: 6px;
+}
+
+.glimpses_inner_page div h2 i {
+    margin-left: 13px;
+}
+
+.glimpses_inner_page div h4 {
+    font-style: normal;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+}
+
+.glimpses_inner_page div p {
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+}
+
+.glimpses_inner_page div img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 300px;
+}
+
+.shareIconContainer svg {
+    color: white;
+    margin-left: 4px;
+    font-size: 14px;
+    /* width: 18px; */
+}
+
+
+.cardIcon {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 16px;
+    top: 15px;
+    width: auto;
+    cursor: pointer;
+    z-index: 100;
+    /* margin-top: 10px;
+    margin-right: -10px; */
+}
+
+.closeIcon {
+    font-size: 25px;
+    right: 9px;
+    top: 10px;
+}
+
+.shareIconTop {
+    top: 11px;
+}
+
+.facebook {
+    background-color: #3a579a;
+}
+
+.twitter {
+    background-color: #00abf0;
+}
+
+.linkedin {
+    background-color: #127bb6;
+}
+
+.whatsapp {
+    background-color: #1d9e11;
+}
+
+.faceIn {
+    animation-name: face-In;
+}
+
+@keyframes face-In {
+    0% {
+        right: 10px;
+        opacity: 50%;
+    }
+
+    100% {
+        right: 35px;
+        opacity: 100%;
+    }
+}
+
+.faceOut {
+    animation-name: face-Out;
+}
+
+@keyframes face-Out {
+    0% {
+        right: 35px;
+        opacity: 100%;
+    }
+
+    100% {
+        right: 10px;
+        opacity: 50%;
+    }
+}
+
+.twitIn {
+    animation-name: twit-In;
+}
+
+@keyframes twit-In {
+    0% {
+        right: 10px;
+        opacity: 50%;
+    }
+
+    100% {
+        right: 62px;
+        opacity: 100%;
+    }
+}
+
+.twitOut {
+    animation-name: twit-Out;
+}
+
+@keyframes twit-Out {
+    0% {
+        right: 62px;
+        opacity: 100%;
+    }
+
+    100% {
+        right: 10px;
+        opacity: 50%;
+    }
+}
+
+.linkIn {
+    animation-name: link-In;
+}
+
+@keyframes link-In {
+    0% {
+        right: 10px;
+        opacity: 50%;
+    }
+
+    100% {
+        right: 89px;
+        opacity: 100%;
+    }
+}
+
+.linkOut {
+    animation-name: link-Out;
+}
+
+@keyframes link-Out {
+    0% {
+        right: 89px;
+        opacity: 100%;
+    }
+
+    100% {
+        right: 10px;
+        opacity: 50%;
+    }
+}
+
+.whatsIn {
+    animation-name: whats-In;
+}
+
+@keyframes whats-In {
+    0% {
+        right: 10px;
+        opacity: 50%;
+    }
+
+    100% {
+        right: 116px;
+        opacity: 100%;
+    }
+}
+
+.whatsOut {
+    animation-name: whats-Out;
+}
+
+@keyframes whats-Out {
+    0% {
+        right: 116px;
+        opacity: 100%;
+    }
+
+    100% {
+        right: 10px;
+        opacity: 50%;
+    }
+}
+
+.font_image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.font_image img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .shareIconContainer {
+        z-index: 1;
+    }
+
+    .cardIcon {
+        /* right: 11px;
+        font-size: 20px;
+        top: 14px; */
+        width: 24px;
+        height: 24px;
+        right: 16px;
+        font-size: 16px;
+        top: 20px;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 50%;
+        padding: 0.5%;
+        z-index: 10;
+    }
+
+    .closeIcon {
+        font-size: 24px;
+    }
+    
+    .facebook, .twitter, .linkedin, .whatsapp {
+        right: 17px;
+    }
+
+    .faceIn {
+        animation-name: face-In;
+    }
+
+    @keyframes face-In {
+        0% {
+            top: 20px;
+            opacity: 50%;
+        }
+
+        100% {
+            top: 50px;
+            opacity: 100%;
+        }
+    }
+
+    .faceOut {
+        animation-name: face-Out;
+    }
+
+    @keyframes face-Out {
+        0% {
+            top: 40px;
+            opacity: 100%;
+        }
+
+        100% {
+            top: 25px;
+            opacity: 500%;
+        }
+    }
+
+    .twitIn {
+        animation-name: twit-In;
+    }
+
+    @keyframes twit-In {
+        0% {
+            top: 25px;
+            opacity: 50%;
+        }
+
+        100% {
+            top: 78px;
+            opacity: 100%;
+        }
+    }
+
+    .twitOut {
+        animation-name: twit-Out;
+    }
+
+    @keyframes twit-Out {
+        0% {
+            top: 78px;
+            opacity: 100%;
+        }
+
+        100% {
+            top: 25px;
+            opacity: 50%;
+        }
+    }
+
+    .linkIn {
+        animation-name: link-In;
+    }
+
+    @keyframes link-In {
+        0% {
+            top: 25px;
+            opacity: 50%;
+        }
+
+        100% {
+            top: 108px;
+            opacity: 100%;
+        }
+    }
+
+    .linkOut {
+        animation-name: link-Out;
+    }
+
+    @keyframes link-Out {
+        0% {
+            top: 108px;
+            opacity: 100%;
+        }
+
+        100% {
+            top: 25px;
+            opacity: 50%;
+        }
+    }
+
+    .whatsIn {
+        animation-name: whats-In;
+    }
+
+    @keyframes whats-In {
+        0% {
+            top: 25px;
+            opacity: 50%;
+        }
+
+        100% {
+            top: 138px;
+            opacity: 100%;
+        }
+    }
+
+    .whatsOut {
+        animation-name: whats-Out;
+    }
+
+    @keyframes whats-Out {
+        0% {
+            top: 138px;
+            opacity: 100%;
+        }
+
+        100% {
+            top: 25px;
+            opacity: 50%;
+        }
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    .glimpses_inner_page button {
+        margin-left: 15px;
+    }
+}

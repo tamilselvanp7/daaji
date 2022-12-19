@@ -1,0 +1,144 @@
+.gallery_heading {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.gallery_heading span {
+  height: 1px;
+  border-top: 1px solid #ebebeb;
+  display: block;
+  position: relative;
+  top: 1px;
+  width: 100%;
+  color: #000;
+}
+
+.gallery_heading h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.8rem;
+  line-height: 1em;
+  font-size: 20px;
+  font-family: auto;
+  margin: 0;
+}
+
+.gallery_heading h4 span {
+  width: 30%;
+  margin: 0 1rem;
+}
+
+.gallery {
+  -webkit-column-count: 4 !important;
+  -moz-column-count: 4 !important;
+  column-count: 4 !important;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 12px;
+  gap: 5px;
+  margin-bottom: 2rem;
+}
+
+.pics {
+  text-align: center;
+  padding: 6px;
+  opacity: 1;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.pics:hover {
+  filter: opacity(0.8);
+}
+
+.img_size {
+  text-align: center;
+  padding: 6px;
+  border: 1px solid #ebebeb;
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+}
+
+.button_img {
+  background-image: url("https://cdn.printfriendly.com/buttons/printfriendly-button.png");
+  padding-left: 48px;
+  padding-right: 63px;
+  padding-top: 15px;
+  padding-bottom: 11px;
+  border: none;
+  margin-left: 40px;
+}
+
+.comment_container {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.gallery + hr,
+.comment_container + hr {
+  margin: 0.8rem 0;
+}
+
+.comment {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin: 0;
+}
+
+.comment li a {
+  margin: 5px;
+  color: #737272;
+}
+
+@media only screen and (max-width: 991px) {
+  .gallery {
+    -webkit-column-count: 2 !important;
+    -moz-column-count: 2 !important;
+    column-count: 2 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery_heading h4 {
+    line-height: 28px;
+    font-size: 16px;
+  }
+
+  .gallery_heading h4 span {
+    width: 29%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .comment_container a {
+    font-size: 11px;
+  }
+
+  .gallery_heading span h4 {
+    font-size: 50%;
+  }
+
+  .gallery {
+    -webkit-column-count: 2 !important;
+    -moz-column-count: 2 !important;
+    column-count: 1 !important;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    margin: 20px;
+  }
+
+  .img_size {
+    width: 100%;
+  }
+}

@@ -1,0 +1,472 @@
+.daaji_image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fdf1db;
+}
+
+.daaji_img {
+  height: 200px;
+  padding: 0px;
+  margin: 50px;
+}
+
+.hr_lines {
+  position: relative;
+  max-width: 500px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.hr_lines:before {
+  content: " ";
+  height: 1px;
+  width: 100px;
+  background: rgb(5, 5, 5);
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 0;
+}
+
+.hr_lines:after {
+  content: " ";
+  height: 1px;
+  width: 100px;
+  background: rgb(5, 5, 5);
+  display: block;
+  position: absolute;
+  top: 60%;
+  right: 0;
+}
+
+.articles {
+  font-family: Mr De Haviland, cursive;
+  color: #050505;
+  font-size: 18px;
+}
+
+.title {
+  font-family: "inherit";
+  font-size: 22px;
+  width: 100%;
+  color: #050505;
+}
+
+.date {
+  font-family: "inherit";
+  color: #797979;
+  font-size: 14px;
+}
+
+.description {
+  font-family: "Muli";
+  font-size: 20px;
+  color: #7a7878;
+  margin-top: 10px;
+}
+
+.continue_reading {
+  font-family: "Muli";
+  font-size: 15px;
+  color: #babab8;
+}
+
+.icon {
+  color: #070707;
+  font-size: 15px;
+  border: #050505;
+  border-width: 1px;
+  border-right-width: 0px;
+  border-style: solid;
+  padding: 11px;
+  height: 45px;
+  width: 15%;
+}
+
+.icon i {
+  border: #050505;
+  border-width: 1px;
+}
+
+.search_input {
+  outline: none;
+  height: 45px;
+  width: 100%;
+  border-width: 1px;
+  /* padding: 20px; */
+  padding: 12px 20px;
+  border: 1px solid #e1dcdb;
+  outline: 0;
+  font-family: muli;
+  font-size: 14px;
+  color: #939598;
+  /* margin-top: 32px; */
+  /* margin-bottom: 25px; */
+}
+
+.design_book {
+  font-size: 14px;
+  text-align: center;
+  font-family: "gotham-light";
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.underLine {
+  margin-bottom: 20px;
+}
+
+.recent_posts {
+  font-family: "Noto-Serif";
+  font-size: 18px;
+  color: #797979;
+}
+
+.button {
+  height: 45px;
+  width: 100%;
+  border-width: 1px;
+  border-style: inherit;
+  text-align: left;
+  padding: 10px;
+}
+
+.comment_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.comment_container a {
+  font-size: 12px;
+  color: #737272;
+  text-decoration: none;
+  font-family: "muli";
+}
+
+.comment {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.comment li {
+  font-size: 1px;
+}
+
+.comment li a {
+  margin: 3.5px;
+}
+
+.heading {
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.heading img {
+  width: 800px;
+}
+
+.heading a span {
+  font-family: "Mr De Haviland", cursive;
+}
+
+.heading h1 {
+  font-size: 32px;
+  letter-spacing: 3px;
+  font-family: auto;
+}
+
+.heading p {
+  font-family: muli, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  margin: 2rem 0;
+  color: #525252;
+  font-size: 18px;
+  text-align: left;
+}
+
+.heading h6 {
+  font-size: 12px;
+  color: #797979;
+  margin: 8px 0 1.5rem 0;
+  font-family: auto;
+}
+
+.description+a {
+  text-align: left;
+  color: #525252;
+  font-size: 14px;
+  font-family: "muli";
+  font-weight: 200;
+  text-decoration: none;
+  text-underline-position: under;
+}
+
+.card_image {
+  width: 50px;
+}
+
+.hr_lines {
+  position: relative;
+  max-width: 500px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.hr_lines:before {
+  content: " ";
+  height: 1px;
+  width: 100px;
+  background: rgb(5, 5, 5);
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 0;
+}
+
+.hr_lines:after {
+  content: " ";
+  height: 1px;
+  width: 100px;
+  background: rgb(5, 5, 5);
+  display: block;
+  position: absolute;
+  top: 60%;
+  right: 0;
+}
+
+.articles {
+  font-family: Mr De Haviland, cursive;
+  font-style: oblique;
+  color: #050505;
+  font-size: 18px;
+}
+
+.title {
+  font-family: "inherit";
+  font-size: 22px;
+  width: 100%;
+  color: #050505;
+}
+
+.date {
+  font-family: "inherit";
+  color: #797979;
+  font-size: 14px;
+}
+
+.description {
+  font-family: "Muli";
+  font-size: 20px;
+  color: #7a7878;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.continue_reading {
+  font-family: "Muli";
+  font-size: 15px;
+  color: #babab8;
+}
+
+.icon {
+  color: #737272;
+  font-size: 15px;
+}
+
+.search_input input {
+  height: 45px;
+  width: 100%;
+  border-width: 1px;
+  padding: 20px;
+  outline: none;
+}
+
+.design_book {
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "gotham-light";
+}
+
+.designing_book_img {
+  width: 10vw;
+  margin-top: 10px;
+}
+
+.select_box {
+  font-family: "Muli";
+  outline: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.recent_posts {
+  font-family: "Muli";
+  font-size: 18px !important;
+  /* line-height: 30px!important; */
+  letter-spacing: 0;
+  font-weight: 300;
+  color: #797979;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.button {
+  background-color: #ffffff;
+  height: 45px;
+  width: 100%;
+  border-width: 1px;
+  border-color: #737272;
+  text-align: left;
+  padding: 10px;
+}
+
+.older_button {
+  border-width: 0px;
+  letter-spacing: 1.5px;
+  padding: 10px 30px;
+  display: inline-block;
+  width: 160px;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #e3dedd;
+}
+
+.new_button {
+  letter-spacing: 1.5px;
+  padding: 10px 30px;
+  display: inline-block;
+  width: 160px;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #e3dedd;
+}
+
+.arrow {
+  border-width: 1px;
+  background-color: #ffffff;
+  border-color: #737272;
+  color: #737272;
+  padding: 11px;
+  padding-top: 0.92em;
+  font-size: 13px;
+  border-style: solid;
+  border-left-width: 0px;
+}
+
+.destiny_book {
+  text-align: left;
+}
+
+.destiny_book img {
+  width: 10vw;
+  margin-top: 10px;
+}
+
+.form_validation {
+  width: 378px;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .destiny_book {
+    text-align: center;
+  }
+
+  .destiny_book img {
+    width: 35vw;
+  }
+
+  .older_button,
+  .new_button {
+    /* width: 30vw; */
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding: 9px 10px;
+    font-size: 11px;
+  }
+
+  .comment_container a {
+    font-size: 11px;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .heading img {
+    width: 350px;
+  }
+
+  .heading a span {
+    font-size: 18px;
+  }
+
+  .heading h1 {
+    font-size: 23px;
+  }
+
+  .older_box {
+    margin-right: 40px;
+  }
+}
+
+.post_container {
+  width: 175px;
+}
+
+@media screen and (max-width: 768px) {
+  .destiny_book img {
+    width: 20vw;
+    margin-left: 35px;
+  }
+}
+.continue_animation{
+  display: inline-block;
+    position: relative;
+    padding-bottom: 0.20rem;
+  
+}
+.continue_animation::before{
+  content: "";
+    position: absolute;
+    left: 0;
+    /* right: auto; */
+    bottom: 0;
+    width: 20%;
+    height: 1px;
+    background-color: #000000;
+    transition: width 0.25s ease-out;
+}
+.continue_animation:hover::before{
+  width: 0;
+    left: 0;
+    right: auto;
+}
+@media only screen and (max-width:600px) {
+  .continue_animation::before{
+    width: 47%;
+  }
+  
+}
+@media only screen and (max-width:768px) {
+  .continue_animation:hover::before{
+    width: auto;
+  }
+  
+}

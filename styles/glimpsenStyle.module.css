@@ -1,0 +1,573 @@
+.glimpsesBody {
+    background-color: #ffe9ca;
+    display: block;
+    overflow-x: hidden;
+}
+
+.Aside {
+    background-color: transparent;
+    border-right: 0.5px solid rgb(221, 214, 205);
+    padding: 30px 10px 0px 10px;
+}
+
+.Aside iframe {
+    width: 100%;
+}
+
+.Aside h1 {
+    font-family: "Playlist";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 100px;
+}
+
+.Aside h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.Aside P {
+    font-family: muli, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: .1px;
+    margin-top: 1rem;
+}
+
+.Aside h5 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.Aside ul a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.25s ease-out;
+}
+
+.Aside ul a:hover {
+    opacity: 70%;
+}
+
+.bgContainer {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.bgContainer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px #00000012;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.cardImg {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardImg img {
+    width: 100%;
+    height: 180px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.cardIcon {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.closeIcon {
+    font-size: 16px;
+    right: 10px;
+    top: 13px;
+    transform: scale(1.5);
+}
+
+/* .cardIcon svg {
+    margin-right: 1rem;
+} */
+
+.cardContent {
+    display: flex;
+}
+
+.cardContent a {
+    margin: 5px 0;
+}
+
+.cardContent h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 550;
+    font-size: 25px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cardContent p {
+    font-family: muli, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.innerCardImg {
+    width: 100%;
+    /* height: 300px; */
+    position: relative;
+    margin: 5px 0px;
+}
+
+.innerCardImg img {
+    width: 100%;
+    /* height: 300px; */
+    position: relative !important;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.allpostBtn {
+    width: 150px;
+    height: 49px;
+    background: #6a110a;
+    border-radius: 16px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.innercard {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px #00000012;
+    padding: 30px;
+    /* height: 150vh; */
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.innercard h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 550;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.innercard p {
+    font-family: muli, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.shareIconContainer {
+    position: relative;
+    z-index: 1000;
+}
+
+.shareIconContainer svg {
+    color: white;
+    margin-left: 4px;
+    font-size: 14px;
+    /* width: 18px; */
+}
+
+.shareIcon {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
+
+.facebook {
+    background-color: #3a579a;
+}
+
+.twitter {
+    background-color: #00abf0;
+}
+
+.linkedin {
+    background-color: #127bb6;
+}
+
+.whatsapp {
+    background-color: #1d9e11;
+}
+
+.faceIn {
+    animation-name: face-In;
+}
+
+@keyframes face-In {
+    0% {
+        right: 10px;
+        opacity: 50%;
+    }
+
+    100% {
+        right: 20px;
+        opacity: 100%;
+    }
+}
+
+.faceOut {
+    animation-name: face-Out;
+}
+
+@keyframes face-Out {
+    0% {
+        right: 20px;
+        opacity: 100%;
+    }
+
+    100% {
+        right: 10px;
+        opacity: 50%;
+    }
+}
+
+.twitIn {
+    animation-name: twit-In;
+}
+
+@keyframes twit-In {
+    0% {
+        right: 10px;
+        opacity: 50%;
+    }
+
+    100% {
+        right: 48px;
+        opacity: 100%;
+    }
+}
+
+.twitOut {
+    animation-name: twit-Out;
+}
+
+@keyframes twit-Out {
+    0% {
+        right: 48px;
+        opacity: 100%;
+    }
+
+    100% {
+        right: 10px;
+        opacity: 50%;
+    }
+}
+
+.linkIn {
+    animation-name: link-In;
+}
+
+@keyframes link-In {
+    0% {
+        right: 10px;
+        opacity: 50%;
+    }
+
+    100% {
+        right: 76px;
+        opacity: 100%;
+    }
+}
+
+.linkOut {
+    animation-name: link-Out;
+}
+
+@keyframes link-Out {
+    0% {
+        right: 76px;
+        opacity: 100%;
+    }
+
+    100% {
+        right: 10px;
+        opacity: 50%;
+    }
+}
+
+.whatsIn {
+    animation-name: whats-In;
+}
+
+@keyframes whats-In {
+    0% {
+        right: 10px;
+        opacity: 50%;
+    }
+
+    100% {
+        right: 104px;
+        opacity: 100%;
+    }
+}
+
+.whatsOut {
+    animation-name: whats-Out;
+}
+
+@keyframes whats-Out {
+    0% {
+        right: 104px;
+        opacity: 100%;
+    }
+
+    100% {
+        right: 10px;
+        opacity: 50%;
+    }
+}
+
+.font_image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.font_image img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .Aside h3, .Aside h3+h5, .Aside h3+h5+ul, .Aside h5 {
+        display: none;
+    }
+
+    .bgContainer {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .innerCardImg img {
+        width: 100%;
+    }
+
+    .cardIcon {
+        right: 24px;
+        font-size: 16px;
+        top: 24px;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    .openIcon {
+        width: 24px;
+        height: 24px;
+        right: 20px;
+        font-size: 16px;
+        top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .openIcon svg {
+        padding-bottom: 1px;
+    }
+
+    /* .closeIcon {
+        font-size: 26px;
+    } */
+
+    .facebook, .twitter, .linkedin, .whatsapp {
+        right: 9.5px;
+    }
+
+    .faceIn {
+        animation-name: face-In;
+    }
+
+    @keyframes face-In {
+        0% {
+            top: 30px;
+            opacity: 50%;
+        }
+
+        100% {
+            top: 42px;
+            opacity: 100%;
+        }
+    }
+
+    .faceOut {
+        animation-name: face-Out;
+    }
+
+    @keyframes face-Out {
+        0% {
+            top: 42px;
+            opacity: 100%;
+        }
+
+        100% {
+            top: 30px;
+            opacity: 500%;
+        }
+    }
+
+    .twitIn {
+        animation-name: twit-In;
+    }
+
+    @keyframes twit-In {
+        0% {
+            top: 30px;
+            opacity: 50%;
+        }
+
+        100% {
+            top: 70px;
+            opacity: 100%;
+        }
+    }
+
+    .twitOut {
+        animation-name: twit-Out;
+    }
+
+    @keyframes twit-Out {
+        0% {
+            top: 70px;
+            opacity: 100%;
+        }
+
+        100% {
+            top: 30px;
+            opacity: 50%;
+        }
+    }
+
+    .linkIn {
+        animation-name: link-In;
+    }
+
+    @keyframes link-In {
+        0% {
+            top: 30px;
+            opacity: 50%;
+        }
+
+        100% {
+            top: 100px;
+            opacity: 100%;
+        }
+    }
+
+    .linkOut {
+        animation-name: link-Out;
+    }
+
+    @keyframes link-Out {
+        0% {
+            top: 100px;
+            opacity: 100%;
+        }
+
+        100% {
+            top: 30px;
+            opacity: 50%;
+        }
+    }
+
+    .whatsIn {
+        animation-name: whats-In;
+    }
+
+    @keyframes whats-In {
+        0% {
+            top: 30px;
+            opacity: 50%;
+        }
+
+        100% {
+            top: 130px;
+            opacity: 100%;
+        }
+    }
+
+    .whats-Out {
+        animation-name: whats-Out;
+    }
+
+    @keyframes whats-Out {
+        0% {
+            top: 130px;
+            opacity: 100%;
+        }
+
+        100% {
+            top: 30px;
+            opacity: 50%;
+        }
+    }
+
+    .Aside iframe {
+        height: 220px;
+    }
+
+    /* .cardImg {
+        margin-left: 3px;
+    }
+
+    .cardContent {
+        margin-left: 5px;
+    } */
+
+    .cardImg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .innercard {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

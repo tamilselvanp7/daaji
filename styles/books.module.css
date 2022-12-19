@@ -1,0 +1,49 @@
+.books_heading {
+    font-size: 20px;
+    font-family: auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.books_image {
+    width: 240px;
+}
+
+.books_description {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #605f5f;
+    letter-spacing: 0px;
+}
+
+.books_shopping {
+    width: 150px;
+}
+
+.comment_container {
+
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.comment {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.comment li a {
+    margin: 5px;
+    color: #737272;
+}
+
+@media only screen and (max-width:600px) {
+    .comment_container a {
+        font-size: 11px;
+    }
+}
