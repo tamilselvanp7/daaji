@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/label-has-associated-control */
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Styles from "../../styles/articles.module.css";
@@ -22,9 +23,16 @@ function SinglePost({ content }) {
     <div className="col-12 col-md-6 px-3">
       <div className="single-post">
         <div className=" text-center mt-5 ">
-          <Link href={`/${content.slug}`} className={Styles.card_image}>
+          <Link href={`/${content.slug}`}>
             <a>
-              <img src={content.img} className="w-100" alt="" />
+              <Image 
+              src={content.img}
+              width="390"
+              height="230"
+              className={Styles.card_image}
+              quality={100}
+              alt="" />
+              {/* <img src={content.img} className="w-100" alt="" /> */}
             </a>
           </Link>
 

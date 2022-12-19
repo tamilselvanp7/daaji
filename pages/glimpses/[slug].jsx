@@ -9,6 +9,7 @@ import styles from "../../styles/glimpsenStyle.module.css";
 import iconstyles from "../../styles/glimpses-inner-page.module.css";
 import AsideCom from "../../components/Glimspses/GlimpsesAside";
 import axios from "axios";
+import Image from "next/image";
 import { IoIosShareAlt, IoIosClose } from "react-icons/io";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { BsTwitter, BsWhatsapp } from "react-icons/bs";
@@ -157,10 +158,13 @@ function Blog({ header, footer, data, seo }) {
                   </div>
                   <div className="d-lg-none">
                     <div className={styles.innerCardImg}>
-                      <img
+                      <Image
                         src={
                           data.attributes.featured_Image.data?.attributes.url
                         }
+                        quality={100}
+                        width={898}
+                        height={599}
                         alt="#"
                       />
                     </div>
@@ -170,10 +174,13 @@ function Blog({ header, footer, data, seo }) {
 
                   <div className="d-none d-lg-block">
                     <div className={styles.innerCardImg}>
-                      <img
+                      <Image
                         src={
                           data.attributes?.featured_Image.data?.attributes.url
                         }
+                        quality={100}
+                        width={898}
+                        height={600}
                         alt=""
                       />
                     </div>

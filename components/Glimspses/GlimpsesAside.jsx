@@ -4,6 +4,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import axios from "axios";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import styles from "../../styles/glimpsenStyle.module.css";
 import DropDown from "./DropDown";
@@ -52,12 +53,15 @@ function GlimpsesAside({ onClickMonth, onClickYear, years }) {
   return (
     <div className={styles.Aside}>
       <div className={styles.font_image}>
-        <img
+        <Image
           src={
             glimpseData
               ? glimpseData.image
               : "https://hfn-strapi-bucket.s3.ap-south-1.amazonaws.com/glimpses_f5b411cbb0.png?updated_at=2022-11-15T14:02:35.783Z"
           }
+          quality={100}
+          width="290"
+          height="121"
           alt="glimpses_logo"
         />
       </div>

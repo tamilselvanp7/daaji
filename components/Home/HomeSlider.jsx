@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -50,14 +51,17 @@ export default function HomeSlider() {
             <div>
               <div className="home-slider" key={item.id}>
                 <a href={`${process.env.NEXT_PUBLIC_SITE_URL}/${item.slug}`}>
-                  <img
+                  <Image
                     src={
                       item.img
                         ? item.img
                         : "https://hfn-strapi-bucket.s3.ap-south-1.amazonaws.com/part5featured_3afc0f9a92.jpg"
                     }
-                    style={{ width: "100%", height: "100%" }}
+                    // style={{ width: "100%", height: "100%" }}
                     alt="image1"
+                    width={515}
+                    height={332}
+                    quality={100}
                   />
                 </a>
 

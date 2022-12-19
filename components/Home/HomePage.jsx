@@ -10,10 +10,11 @@ import {
   // FaPinterestP,
   // FaTumblr,
   FaTwitter,
-  FaWhatsapp,
+  FaWhatsapp
   // FaVk
 } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 import Styles from "../../styles/Home.module.css";
 import SinglePost from "../Blog/SinglePost";
 import SideBox from "../SideBox";
@@ -24,7 +25,7 @@ function HomePage({ data, meta }) {
   const dateCalculator = (date) => {
     const day = new Date(date).toLocaleString("en-us", {
       month: "short",
-      day: "numeric",
+      day: "numeric"
     });
     return String(
       `${day.slice(0, 3)} ${day.slice(4, 6).padStart(2, 0)}. 20${date.slice(
@@ -62,8 +63,11 @@ function HomePage({ data, meta }) {
                     href={`${process.env.NEXT_PUBLIC_SITE_URL}/${data[0].slug}`}
                   >
                     <a>
-                      <img
+                      <Image
                         src={data[0].img}
+                        width="769"
+                        height="433"
+                        quality={100}
                         alt="intentions"
                         className="w-100"
                       />

@@ -11,6 +11,7 @@ import {
   FaWhatsapp
 } from "react-icons/fa";
 import { useRouter } from "next/router";
+import Image from "next/image";
 import Styles from "../styles/blog.module.css";
 import PreviousNext from "../components/RelatedPosts/PreviousNext";
 import Widgets from "../components/widgets";
@@ -158,7 +159,14 @@ function Blogs({
                   href={`${process.env.NEXT_PUBLIC_SITE_URL}/${currentBlogContent.slug}`}
                 >
                   <a>
-                    <img src={currentBlogContent.img?.url} alt="intentions" />
+                    <Image
+                      src={currentBlogContent.img?.url}
+                      width="1116"
+                      height="620"
+                      alt=""
+                      quality={100}
+                    />
+                    {/* <img src={currentBlogContent.img?.url} alt="intentions" /> */}
                   </a>
                 </Link>
               )}
@@ -225,11 +233,11 @@ function Blogs({
               <div className="comment-inner-container">
                 <div className="commentBox">
                   {currentBlogContent.comments.map((item) => (
-                    <CommentBox comment={item}/>
+                    <CommentBox comment={item} />
                   ))}
                 </div>
               </div>
-              <Form blogId={currentBlog.id}/>
+              <Form blogId={currentBlog.id} />
             </div>
           </div>
         </div>

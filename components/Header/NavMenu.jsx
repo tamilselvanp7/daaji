@@ -55,7 +55,7 @@ function NavMenu({ headerData }) {
   });
 
   return (
-    <div>
+    <div style={{backgroundColor: "#fdf1db"}}>
       <Navbar
         collapseOnSelect
         className="navbar navbar-expand-lg daaji-glimpses-header"

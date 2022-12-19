@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import axios from "axios";
+import Image from "next/image";
 import Styles from "../styles/about.module.css";
 import Seo from "../components/Seo";
 import Header from "../components/Header/NavMenu";
@@ -43,11 +44,15 @@ function About({ header, footer, data, seo }) {
           <div className="row">
             <div className="col-12 col-md-6 col-lg-6 mt-5 ">
               <div className="mt-3 p-3 text-center">
-                <img
-                  src={data.about_image.data.attributes.url}
-                  className=""
-                  alt=""
-                />
+   
+                  <Image
+                    src={data.about_image.data.attributes.url}
+                    width="320"
+                    height="320"
+                    quality={100}
+                    alt=""
+                  />
+         
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-6 mt-3 ml-0 d-flex flex-column justify-content-center text-center">

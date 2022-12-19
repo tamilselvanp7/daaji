@@ -3,6 +3,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from "next/link";
 import React, { useState } from "react";
+import Image from "next/image";
 import { IoIosShareAlt, IoIosClose } from "react-icons/io";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { BsTwitter, BsWhatsapp } from "react-icons/bs";
@@ -82,13 +83,21 @@ function GlimpseCard({ card }) {
           <div className="row">
             <div className="col-lg-4">
               <Link href={`/glimpses/${card.attributes.slug}`} passHref>
-                <a className={styles.cardImg}>
-                  <img
+                <div className={styles.cardImg}>
+                <Image
+                  src={card.attributes.featured_Image.data?.attributes.url}
+                  quality={100}
+                  className="w-60 rounded"
+                  width="290"
+                  height="180"
+                  alt=""
+                />
+                </div>
+                  {/* <img
                     src={card.attributes.featured_Image.data?.attributes.url}
                     className="w-60 rounded"
                     alt=""
-                  />
-                </a>
+                  /> */}
               </Link>
             </div>
             <div className="col-lg-8">
